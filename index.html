@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>IPM Classes</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand nav-link" href="#header">
+                <img class="mr-3"  style="background-color: #fff;border-radius: 30px;" src="logo.png"></img>
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#members">Team Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#assigments">Assigments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header" class="header">
+        <div class="overlay">
+            <h1 class="title">IPM Classes</h1>
+            <h2 class="subtitle">Team 32</h2> 
+            <br></br>
+            <h2 class="subtitle">Lab P4 22/23</h2>  
+
+        </div>  
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
+        </div>  
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header>
+<body>
+    <section  id="members" class="section pt-0">
+        <div class="container">
+            <h4 class="section-title text-center">Team Members</h4>
+            <br></br>
+            <div class="row">
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="rosa.jpg" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">Diogo Rosa</h6>
+                                    <small class="text-muted mb-0">57464</small>     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" style="background-color: black;" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">Tiago Fernandes</h6>
+                                    <small class="text-muted mb-0">57677</small>     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" style="background-color: black;" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">Rodrigo Moreira</h6>
+                                    <small class="text-muted mb-0">57943</small>     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </section>
+   
+    <section class="section" id="assigments">
+        <div class="container">
+            <div class="container">
+                <h4 class="section-title text-center">Assigments</h4>
+            </div>
+            <br><br>
+            <div class="col-md-6 col-lg-4">
+                <div class="img-container" >
+                    <a id="a1" href=A1-Diogo.pdf target="_blank" onmouseover="itemsOnHover(id)" onmouseout="itemsOnOut(id)">
+                        <img src="wrench.png" class="assigments-img">
+                        <div id="a1-content"class="content">
+                        <div>Assigment 1- Bad vs Good Design</div>
+                        <p>Diogo Rosa</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="project">
+        <div class="container">
+            <div class="container">
+                <h4 class="section-title text-center">Project</h4>          
+            </div>
+            <br></br>
+            <div class="col-md-6 col-lg-4">
+                <div class="img-container">
+                    <a id="p1" href="rel phase 1 stage 1.pdf" target="_blank" onmouseover="itemsOnHover(id)" onmouseout="itemsOnOut(id)">
+                        <img  src="wrench.png" class="assigments-img" >
+                        <div id="p1-content"class="content">
+                        <div>Phase 1</div>
+                        <p>Stage 1</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <br></br>
+            <div class="col-md-6 col-lg-4">
+                <div class="img-container">
+                    <a id="p2" href="User and task analysis.pdf" target="_blank" onmouseover="itemsOnHover(id)" onmouseout="itemsOnOut(id)">
+                        <img  src="wrench.png" class="assigments-img" >
+                        <div id="p2-content"class="content">
+                        <div>Phase 1</div>
+                        <p>Stage 2</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="jquery/jquery-3.4.1.js"></script> <!-- utilzado basicamente so no smooth scroll-->
+    
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+
+    <script src="bootstrap/bootstrap.affix.js"></script> <!-- utilizado para o header fixo alterar ao longo so scroll-->
+
+    <script src="app.js"></script> <!-- funcoes  -->
+</body>
+</html>
